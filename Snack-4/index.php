@@ -1,5 +1,8 @@
-<?php 
+<!--
+Creare un array con 15 numeri casuali, tenendo conto che l’array non dovrà contenere lo stesso numero più di una volta
+-->
 
+<?php 
 
 ?>
 
@@ -12,7 +15,9 @@
   <title>Snack 4</title>
 </head>
 <body>
-    
-
+    <h1>CREA 15 Numeri casuali</h1>
+    <?php for($i = 0; $i < 8; $i++){?>
+      <li><?php echo(rand(10,100)) ?></li> 
+  <?php } ?>
 </body>
 </html>
